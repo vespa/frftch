@@ -5,6 +5,10 @@ import 'normalize.css';
 import '../src/sass/main.scss';
 
 export default class MyDocument extends Document {
+  static async getInitialProps({ renderPage }) {
+    return renderPage();
+  }
+
   render() {
     return (
       <html lang="en">

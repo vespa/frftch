@@ -1,14 +1,17 @@
 import 'babel-polyfill';
 import App, { Container } from 'next/app';
 import React from 'react';
+import { Provider } from 'react-redux';
 import withReduxStore from '../lib/with-redux-store';
 
 class MyApp extends App {
   render() {
-    const { Component, pageProps } = this.props;
+    const { Component, pageProps, reduxStore } = this.props;
     return (
       <Container>
-        <Component {...pageProps} />
+        <Provider store={reduxStore}>
+          <Component {...pageProps} />
+        </Provider>
       </Container>
     );
   }
