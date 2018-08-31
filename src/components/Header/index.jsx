@@ -1,10 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import Logo from './assets/logo.svg';
 
 const Header = ({ children }) => {
   return (
     <header>
-      <div> logo </div>
+      <div> <Logo /> </div>
       <div> {children} </div>
     </header>
   );
