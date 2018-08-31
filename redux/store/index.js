@@ -3,10 +3,12 @@ import { composeWithDevTools } from 'redux-devtools-extension';
 import thunkMiddleware from 'redux-thunk';
 import { menu } from '../ducks/menu';
 import { pageInfo } from '../ducks/pageInfo';
+import { productList } from '../ducks/productList';
 
 const reducerMap = {
   menu,
   pageInfo,
+  productList,
 };
 
 export default function initializeStore(initialState = {}) {

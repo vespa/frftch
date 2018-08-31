@@ -1,39 +1,78 @@
-const PAGE_CHANGE_TITLE = 'MENU_CLICK';
-const PAGE_CHANGE_DESCRIPTION = 'CHANGE_SUBMENU_OPTIONS';
+const PRODUCTLIST_REQUEST = 'PRODUCTLIST_REQUEST';
+const PRODUCTLIST_LOADED = 'PRODUCTLIST_LOADED';
+const PRODUCTLIST_ERROR = 'PRODUCTLIST_GET';
 
 const INITIAL_STATE = {
-  title: 'Novidades da moda masculina internacional',
-  description: `O melhor da moda internacional
-  e as peças mais recentes ds marcas internacionais
-  chegaram à seleção online da Farfetch. Descubra novidade
-  da moda masculina e as tendências que grandes designers
-  para renovar o guarda-roupas, de Salvatore Ferragamo à Burberry.`,
+  productList: [],
+  totalItems: 0,
+  totalPages: 0,
+  loading: false,
+  message: '',
 };
 
-function pageChangeTitle(title) {
+function productListRequest() {
   return {
-    type: PAGE_CHANGE_TITLE,
-    title,
+    type: PRODUCTLIST_REQUEST,
+    loading: true,
   };
 }
 
-function pageChangeDescription(options) {
+function productListLoaded(productList) {
   return {
-    type: PAGE_CHANGE_DESCRIPTION,
-    options,
+    type: PRODUCTLIST_LOADED,
+    productList,
+    loading: false,
   };
+}
+
+function productListError() {
+  return {
+    type: PRODUCTLIST_ERROR,
+    productList: [],
+    totalItems: 0,
+    totalPages: 0,
+    loading: false,
+    message: 'Alguma coisa deu errada. Por favor, tente novamente em alguns minutos',
+  };
+}
+
+function productListGet(dispatch) {
+  dispatch(productListRequest());
+  return fetch('http://localhost:3000/api')
+    .then(res => res.json())
+    .then((value) => {
+      dispatch(productListLoaded(value));
+      return value;
+    })
+    .catch((err) => {
+      dispatch(productListError(err));
+    });
 }
 
 function reducer(state = INITIAL_STATE, action = { type: 'none' }) {
   const { type } = action;
   switch (type) {
+    case PRODUCTLIST_REQUEST:
+      return { ...state, loading: action.loading };
+
+    case PRODUCTLIST_LOADED:
+      return {
+        ...state,
+        loading: action.loading,
+        productList: action.productList.products.entries,
+      };
+
+    case PRODUCTLIST_ERROR:
+      return { ...state, loading: action.message };
+
     default:
       return state;
   }
 }
 
 export {
-  pageChangeTitle,
-  pageChangeDescription,
-  reducer as pageInfo,
+  productListRequest,
+  productListLoaded,
+  productListGet,
+  reducer as productList,
 };
