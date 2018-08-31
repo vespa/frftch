@@ -1,6 +1,8 @@
 
 import React from 'react';
 import Document, { Head, Main, NextScript } from 'next/document';
+import 'normalize.css';
+import '../src/sass/main.scss';
 
 export default class MyDocument extends Document {
   render() {

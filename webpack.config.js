@@ -1,4 +1,4 @@
-/* using only for react styledist */
+/* use only for react styledist. For add other webpack configs please use next.config.js */
 module.exports = {
   module: {
     rules: [

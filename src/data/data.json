@@ -1,0 +1,638 @@
+{
+  "products": {
+    "entries": [
+      {
+        "id": 12266474,
+        "shortDescription": "Lucy Patent Leather high-waisted pencil skirt ",
+        "images": [
+          {
+            "size": "250",
+            "url": "https://cdn-images.farfetch.com/skiim-lucy-patent-leather-high-waisted-pencil-skirt_12266474_10636078_250.jpg"
+          },
+          {
+            "size": "400",
+            "url": "https://cdn-images.farfetch.com/skiim-lucy-patent-leather-high-waisted-pencil-skirt_12266474_10636078_400.jpg"
+          },
+          {
+            "size": "800",
+            "url": "https://cdn-images.farfetch.com/skiim-lucy-patent-leather-high-waisted-pencil-skirt_12266474_10636078_800.jpg"
+          },
+          {
+            "size": "1000",
+            "url": "https://cdn-images.farfetch.com/skiim-lucy-patent-leather-high-waisted-pencil-skirt_12266474_10636078_1000.jpg"
+          }
+        ],
+        "videos": [],
+        "price": 1194.1849,
+        "formattedPrice": "1 194,18 €",
+        "gender": 0,
+        "formattedPriceWithoutDiscount": "1 194,18 €",
+        "priceType": 0,
+        "priceWithoutDiscount": 1194.1849,
+        "brand": {
+          "description": null,
+          "id": 5048213,
+          "name": "Skiim",
+          "priceType": 0
+        },
+        "currencyIsoCode": "EUR",
+        "merchantId": 9359,
+        "isInWishlist": false,
+        "slug": "lucy-patent-leather-high-waisted-pencil-skirt-12266474",
+        "promotionPercentage": 0,
+        "tag": 0,
+        "tagDescription": "NoTag"
+      },
+      {
+        "id": 12235260,
+        "shortDescription": "Jacquard pencil skirt",
+        "images": [
+          {
+            "size": "250",
+            "url": "https://cdn-images.farfetch.com/rochas-jacquard-pencil-skirt_12235260_10683272_250.jpg"
+          },
+          {
+            "size": "400",
+            "url": "https://cdn-images.farfetch.com/rochas-jacquard-pencil-skirt_12235260_10683272_400.jpg"
+          },
+          {
+            "size": "800",
+            "url": "https://cdn-images.farfetch.com/rochas-jacquard-pencil-skirt_12235260_10683272_800.jpg"
+          },
+          {
+            "size": "1000",
+            "url": "https://cdn-images.farfetch.com/rochas-jacquard-pencil-skirt_12235260_10683272_1000.jpg"
+          }
+        ],
+        "videos": [],
+        "price": 765.503,
+        "formattedPrice": "765,50 €",
+        "gender": 0,
+        "formattedPriceWithoutDiscount": "765,50 €",
+        "priceType": 0,
+        "priceWithoutDiscount": 765.503,
+        "brand": {
+          "description": null,
+          "id": 92448,
+          "name": "Rochas",
+          "priceType": 0
+        },
+        "currencyIsoCode": "EUR",
+        "merchantId": 9359,
+        "isInWishlist": false,
+        "slug": "jacquard-pencil-skirt-12235260",
+        "promotionPercentage": 0,
+        "tag": 0,
+        "tagDescription": "NoTag"
+      },
+      {
+        "id": 12227722,
+        "shortDescription": "Subtle pleat pencil skirt",
+        "images": [
+          {
+            "size": "250",
+            "url": "https://cdn-images.farfetch.com/roland-mouret-subtle-pleat-pencil-skirt_12227722_10678818_250.jpg"
+          },
+          {
+            "size": "400",
+            "url": "https://cdn-images.farfetch.com/roland-mouret-subtle-pleat-pencil-skirt_12227722_10678818_400.jpg"
+          },
+          {
+            "size": "800",
+            "url": "https://cdn-images.farfetch.com/roland-mouret-subtle-pleat-pencil-skirt_12227722_10678818_800.jpg"
+          },
+          {
+            "size": "1000",
+            "url": "https://cdn-images.farfetch.com/roland-mouret-subtle-pleat-pencil-skirt_12227722_10678818_1000.jpg"
+          }
+        ],
+        "videos": [],
+        "price": 551.1623,
+        "formattedPrice": "551,16 €",
+        "gender": 0,
+        "formattedPriceWithoutDiscount": "551,16 €",
+        "priceType": 0,
+        "priceWithoutDiscount": 551.1623,
+        "brand": {
+          "description": null,
+          "id": 25059,
+          "name": "Roland Mouret",
+          "priceType": 0
+        },
+        "currencyIsoCode": "EUR",
+        "merchantId": 9359,
+        "isInWishlist": false,
+        "slug": "subtle-pleat-pencil-skirt-12227722",
+        "promotionPercentage": 0,
+        "tag": 0,
+        "tagDescription": "NoTag"
+      },
+      {
+        "id": 12205851,
+        "shortDescription": "floral print pencil skirt ",
+        "images": [
+          {
+            "size": "250",
+            "url": "https://cdn-images.farfetch.com/dolce-gabbana-floral-print-pencil-skirt_12205851_10427103_250.jpg"
+          },
+          {
+            "size": "400",
+            "url": "https://cdn-images.farfetch.com/dolce-gabbana-floral-print-pencil-skirt_12205851_10427103_400.jpg"
+          },
+          {
+            "size": "800",
+            "url": "https://cdn-images.farfetch.com/dolce-gabbana-floral-print-pencil-skirt_12205851_10427103_800.jpg"
+          },
+          {
+            "size": "1000",
+            "url": "https://cdn-images.farfetch.com/dolce-gabbana-floral-print-pencil-skirt_12205851_10427103_1000.jpg"
+          }
+        ],
+        "videos": [],
+        "price": 595,
+        "formattedPrice": "595,00 €",
+        "gender": 0,
+        "formattedPriceWithoutDiscount": "595,00 €",
+        "priceType": 0,
+        "priceWithoutDiscount": 595,
+        "brand": {
+          "description": null,
+          "id": 3440,
+          "name": "Dolce & Gabbana",
+          "priceType": 0
+        },
+        "currencyIsoCode": "EUR",
+        "merchantId": 9359,
+        "isInWishlist": false,
+        "slug": "floral-print-pencil-skirt-12205851",
+        "promotionPercentage": 0,
+        "tag": 0,
+        "tagDescription": "NoTag"
+      },
+      {
+        "id": 12134759,
+        "shortDescription": "bow-embellished cloqué midi skirt",
+        "images": [
+          {
+            "size": "250",
+            "url": "https://cdn-images.farfetch.com/fendi-bow-embellished-cloque-midi-skirt_12134759_10169760_250.jpg"
+          },
+          {
+            "size": "400",
+            "url": "https://cdn-images.farfetch.com/fendi-bow-embellished-cloque-midi-skirt_12134759_10169760_400.jpg"
+          },
+          {
+            "size": "800",
+            "url": "https://cdn-images.farfetch.com/fendi-bow-embellished-cloque-midi-skirt_12134759_10169760_800.jpg"
+          },
+          {
+            "size": "1000",
+            "url": "https://cdn-images.farfetch.com/fendi-bow-embellished-cloque-midi-skirt_12134759_10169760_1000.jpg"
+          }
+        ],
+        "videos": [],
+        "price": 1000,
+        "formattedPrice": "1 000,00 €",
+        "gender": 0,
+        "formattedPriceWithoutDiscount": "1 000,00 €",
+        "priceType": 0,
+        "priceWithoutDiscount": 1000,
+        "brand": {
+          "description": null,
+          "id": 15514,
+          "name": "Fendi",
+          "priceType": 0
+        },
+        "currencyIsoCode": "EUR",
+        "merchantId": 9359,
+        "isInWishlist": false,
+        "slug": "bow-embellished-cloque-midi-skirt-12134759",
+        "promotionPercentage": 0,
+        "tag": 0,
+        "tagDescription": "NoTag"
+      },
+      {
+        "id": 12108628,
+        "shortDescription": "Modern Future web tweed pencil skirt ",
+        "images": [
+          {
+            "size": "250",
+            "url": "https://cdn-images.farfetch.com/gucci-modern-future-web-tweed-pencil-skirt_12108628_10147850_250.jpg"
+          },
+          {
+            "size": "400",
+            "url": "https://cdn-images.farfetch.com/gucci-modern-future-web-tweed-pencil-skirt_12108628_10147850_400.jpg"
+          },
+          {
+            "size": "800",
+            "url": "https://cdn-images.farfetch.com/gucci-modern-future-web-tweed-pencil-skirt_12108628_10147850_800.jpg"
+          },
+          {
+            "size": "1000",
+            "url": "https://cdn-images.farfetch.com/gucci-modern-future-web-tweed-pencil-skirt_12108628_10147850_1000.jpg"
+          }
+        ],
+        "videos": [],
+        "price": 1100,
+        "formattedPrice": "1 100,00 €",
+        "gender": 0,
+        "formattedPriceWithoutDiscount": "1 100,00 €",
+        "priceType": 0,
+        "priceWithoutDiscount": 1100,
+        "brand": {
+          "description": null,
+          "id": 25354,
+          "name": "Gucci",
+          "priceType": 0
+        },
+        "currencyIsoCode": "EUR",
+        "merchantId": 9359,
+        "isInWishlist": false,
+        "slug": "modern-future-web-tweed-pencil-skirt-12108628",
+        "promotionPercentage": 0,
+        "tag": 0,
+        "tagDescription": "NoTag"
+      },
+      {
+        "id": 12060318,
+        "shortDescription": "ruffle striped skirt",
+        "images": [
+          {
+            "size": "250",
+            "url": "https://cdn-images.farfetch.com/marco-de-vincenzo-ruffle-striped-skirt_12060318_9566419_250.jpg"
+          },
+          {
+            "size": "400",
+            "url": "https://cdn-images.farfetch.com/marco-de-vincenzo-ruffle-striped-skirt_12060318_9566419_400.jpg"
+          },
+          {
+            "size": "800",
+            "url": "https://cdn-images.farfetch.com/marco-de-vincenzo-ruffle-striped-skirt_12060318_9566419_800.jpg"
+          },
+          {
+            "size": "1000",
+            "url": "https://cdn-images.farfetch.com/marco-de-vincenzo-ruffle-striped-skirt_12060318_9566419_1000.jpg"
+          }
+        ],
+        "videos": [],
+        "price": 945,
+        "formattedPrice": "945,00 €",
+        "gender": 0,
+        "formattedPriceWithoutDiscount": "945,00 €",
+        "priceType": 0,
+        "priceWithoutDiscount": 945,
+        "brand": {
+          "description": null,
+          "id": 307090,
+          "name": "Marco De Vincenzo",
+          "priceType": 0
+        },
+        "currencyIsoCode": "EUR",
+        "merchantId": 9336,
+        "isInWishlist": false,
+        "slug": "ruffle-striped-skirt-12060318",
+        "promotionPercentage": 0,
+        "tag": 0,
+        "tagDescription": "NoTag"
+      },
+      {
+        "id": 12039282,
+        "shortDescription": "Thanks Girls asymmetrical dress",
+        "images": [
+          {
+            "size": "250",
+            "url": "https://cdn-images.farfetch.com/stella-mccartney-thanks-girls-asymmetrical-dress_12039282_9455256_250.jpg"
+          },
+          {
+            "size": "400",
+            "url": "https://cdn-images.farfetch.com/stella-mccartney-thanks-girls-asymmetrical-dress_12039282_9455256_400.jpg"
+          },
+          {
+            "size": "800",
+            "url": "https://cdn-images.farfetch.com/stella-mccartney-thanks-girls-asymmetrical-dress_12039282_9455256_800.jpg"
+          },
+          {
+            "size": "1000",
+            "url": "https://cdn-images.farfetch.com/stella-mccartney-thanks-girls-asymmetrical-dress_12039282_9455256_1000.jpg"
+          }
+        ],
+        "videos": [],
+        "price": 745,
+        "formattedPrice": "745,00 €",
+        "gender": 0,
+        "formattedPriceWithoutDiscount": "745,00 €",
+        "priceType": 0,
+        "priceWithoutDiscount": 745,
+        "brand": {
+          "description": null,
+          "id": 5502,
+          "name": "Stella McCartney",
+          "priceType": 0
+        },
+        "currencyIsoCode": "EUR",
+        "merchantId": 9336,
+        "isInWishlist": false,
+        "slug": "thanks-girls-asymmetrical-dress-12039282",
+        "promotionPercentage": 0,
+        "tag": 0,
+        "tagDescription": "NoTag"
+      },
+      {
+        "id": 11987667,
+        "shortDescription": "Heartbreaker pumps",
+        "images": [
+          {
+            "size": "250",
+            "url": "https://cdn-images.farfetch.com/aquazzura-heartbreaker-pumps_11987667_9253350_250.jpg"
+          },
+          {
+            "size": "400",
+            "url": "https://cdn-images.farfetch.com/aquazzura-heartbreaker-pumps_11987667_9253350_400.jpg"
+          },
+          {
+            "size": "800",
+            "url": "https://cdn-images.farfetch.com/aquazzura-heartbreaker-pumps_11987667_9253350_800.jpg"
+          },
+          {
+            "size": "1000",
+            "url": "https://cdn-images.farfetch.com/aquazzura-heartbreaker-pumps_11987667_9253350_1000.jpg"
+          }
+        ],
+        "videos": [],
+        "price": 495,
+        "formattedPrice": "495,00 €",
+        "gender": 0,
+        "formattedPriceWithoutDiscount": "495,00 €",
+        "priceType": 0,
+        "priceWithoutDiscount": 495,
+        "brand": {
+          "description": null,
+          "id": 580741,
+          "name": "Aquazzura",
+          "priceType": 0
+        },
+        "currencyIsoCode": "EUR",
+        "merchantId": 9359,
+        "isInWishlist": false,
+        "slug": "heartbreaker-pumps-11987667",
+        "promotionPercentage": 0,
+        "tag": 0,
+        "tagDescription": "NoTag"
+      },
+      {
+        "id": 11861779,
+        "shortDescription": "denim pencil skirt",
+        "images": [
+          {
+            "size": "250",
+            "url": "https://cdn-images.farfetch.com/dolce-gabbana-denim-pencil-skirt_11861779_8734600_250.jpg"
+          },
+          {
+            "size": "400",
+            "url": "https://cdn-images.farfetch.com/dolce-gabbana-denim-pencil-skirt_11861779_8734600_400.jpg"
+          },
+          {
+            "size": "800",
+            "url": "https://cdn-images.farfetch.com/dolce-gabbana-denim-pencil-skirt_11861779_8734600_800.jpg"
+          },
+          {
+            "size": "1000",
+            "url": "https://cdn-images.farfetch.com/dolce-gabbana-denim-pencil-skirt_11861779_8734600_1000.jpg"
+          }
+        ],
+        "videos": [],
+        "price": 395,
+        "formattedPrice": "395,00 €",
+        "gender": 0,
+        "formattedPriceWithoutDiscount": "395,00 €",
+        "priceType": 0,
+        "priceWithoutDiscount": 395,
+        "brand": {
+          "description": null,
+          "id": 3440,
+          "name": "Dolce & Gabbana",
+          "priceType": 0
+        },
+        "currencyIsoCode": "EUR",
+        "merchantId": 9359,
+        "isInWishlist": false,
+        "slug": "denim-pencil-skirt-11861779",
+        "promotionPercentage": 0,
+        "tag": 0,
+        "tagDescription": "NoTag"
+      },
+      {
+        "id": 11859078,
+        "shortDescription": "cactus embroidered pencil skirt ",
+        "images": [
+          {
+            "size": "250",
+            "url": "https://cdn-images.farfetch.com/stella-mccartney-cactus-embroidered-pencil-skirt_11859078_8730629_250.jpg"
+          },
+          {
+            "size": "400",
+            "url": "https://cdn-images.farfetch.com/stella-mccartney-cactus-embroidered-pencil-skirt_11859078_8730629_400.jpg"
+          },
+          {
+            "size": "800",
+            "url": "https://cdn-images.farfetch.com/stella-mccartney-cactus-embroidered-pencil-skirt_11859078_8730629_800.jpg"
+          },
+          {
+            "size": "1000",
+            "url": "https://cdn-images.farfetch.com/stella-mccartney-cactus-embroidered-pencil-skirt_11859078_8730629_1000.jpg"
+          }
+        ],
+        "videos": [],
+        "price": 875,
+        "formattedPrice": "875,00 €",
+        "gender": 0,
+        "formattedPriceWithoutDiscount": "875,00 €",
+        "priceType": 0,
+        "priceWithoutDiscount": 875,
+        "brand": {
+          "description": null,
+          "id": 5502,
+          "name": "Stella McCartney",
+          "priceType": 0
+        },
+        "currencyIsoCode": "EUR",
+        "merchantId": 9336,
+        "isInWishlist": false,
+        "slug": "cactus-embroidered-pencil-skirt-11859078",
+        "promotionPercentage": 0,
+        "tag": 0,
+        "tagDescription": "NoTag"
+      },
+      {
+        "id": 11804071,
+        "shortDescription": "ruffle hem pencil skirt",
+        "images": [
+          {
+            "size": "250",
+            "url": "https://cdn-images.farfetch.com/givenchy-ruffle-hem-pencil-skirt_11804071_8496486_250.jpg"
+          },
+          {
+            "size": "400",
+            "url": "https://cdn-images.farfetch.com/givenchy-ruffle-hem-pencil-skirt_11804071_8496486_400.jpg"
+          },
+          {
+            "size": "800",
+            "url": "https://cdn-images.farfetch.com/givenchy-ruffle-hem-pencil-skirt_11804071_8496486_800.jpg"
+          },
+          {
+            "size": "1000",
+            "url": "https://cdn-images.farfetch.com/givenchy-ruffle-hem-pencil-skirt_11804071_8496486_1000.jpg"
+          }
+        ],
+        "videos": [],
+        "price": 990,
+        "formattedPrice": "990,00 €",
+        "gender": 0,
+        "formattedPriceWithoutDiscount": "990,00 €",
+        "priceType": 0,
+        "priceWithoutDiscount": 990,
+        "brand": {
+          "description": null,
+          "id": 3064,
+          "name": "Givenchy",
+          "priceType": 0
+        },
+        "currencyIsoCode": "EUR",
+        "merchantId": 9359,
+        "isInWishlist": false,
+        "slug": "ruffle-hem-pencil-skirt-11804071",
+        "promotionPercentage": 0,
+        "tag": 0,
+        "tagDescription": "NoTag"
+      },
+      {
+        "id": 11672064,
+        "shortDescription": "mesh insert pencil skirt",
+        "images": [
+          {
+            "size": "250",
+            "url": "https://cdn-images.farfetch.com/paco-rabanne-mesh-insert-pencil-skirt_11672064_8004522_250.jpg"
+          },
+          {
+            "size": "400",
+            "url": "https://cdn-images.farfetch.com/paco-rabanne-mesh-insert-pencil-skirt_11672064_8004522_400.jpg"
+          },
+          {
+            "size": "800",
+            "url": "https://cdn-images.farfetch.com/paco-rabanne-mesh-insert-pencil-skirt_11672064_8004522_800.jpg"
+          },
+          {
+            "size": "1000",
+            "url": "https://cdn-images.farfetch.com/paco-rabanne-mesh-insert-pencil-skirt_11672064_8004522_1000.jpg"
+          }
+        ],
+        "videos": [],
+        "price": 685,
+        "formattedPrice": "685,00 €",
+        "gender": 0,
+        "formattedPriceWithoutDiscount": "685,00 €",
+        "priceType": 0,
+        "priceWithoutDiscount": 685,
+        "brand": {
+          "description": null,
+          "id": 279695,
+          "name": "Paco Rabanne",
+          "priceType": 0
+        },
+        "currencyIsoCode": "EUR",
+        "merchantId": 9359,
+        "isInWishlist": false,
+        "slug": "mesh-insert-pencil-skirt-11672064",
+        "promotionPercentage": 0,
+        "tag": 0,
+        "tagDescription": "NoTag"
+      },
+      {
+        "id": 11582624,
+        "shortDescription": "stitch detail pencil skirt",
+        "images": [
+          {
+            "size": "250",
+            "url": "https://cdn-images.farfetch.com/rejina-pyo-stitch-detail-pencil-skirt_11582624_8020660_250.jpg"
+          },
+          {
+            "size": "400",
+            "url": "https://cdn-images.farfetch.com/rejina-pyo-stitch-detail-pencil-skirt_11582624_8020660_400.jpg"
+          },
+          {
+            "size": "800",
+            "url": "https://cdn-images.farfetch.com/rejina-pyo-stitch-detail-pencil-skirt_11582624_8020660_800.jpg"
+          },
+          {
+            "size": "1000",
+            "url": "https://cdn-images.farfetch.com/rejina-pyo-stitch-detail-pencil-skirt_11582624_8020660_1000.jpg"
+          }
+        ],
+        "videos": [],
+        "price": 398.0615,
+        "formattedPrice": "398,06 €",
+        "gender": 0,
+        "formattedPriceWithoutDiscount": "398,06 €",
+        "priceType": 0,
+        "priceWithoutDiscount": 398.0615,
+        "brand": {
+          "description": null,
+          "id": 1504165,
+          "name": "Rejina Pyo",
+          "priceType": 0
+        },
+        "currencyIsoCode": "EUR",
+        "merchantId": 9359,
+        "isInWishlist": false,
+        "slug": "stitch-detail-pencil-skirt-11582624",
+        "promotionPercentage": 0,
+        "tag": 0,
+        "tagDescription": "NoTag"
+      },
+      {
+        "id": 11571083,
+        "shortDescription": "Red Wild Thing Heeled Sandals",
+        "images": [
+          {
+            "size": "250",
+            "url": "https://cdn-images.farfetch.com/aquazzura-red-wild-thing-heeled-sandals_11571083_8245339_250.jpg"
+          },
+          {
+            "size": "400",
+            "url": "https://cdn-images.farfetch.com/aquazzura-red-wild-thing-heeled-sandals_11571083_8245339_400.jpg"
+          },
+          {
+            "size": "800",
+            "url": "https://cdn-images.farfetch.com/aquazzura-red-wild-thing-heeled-sandals_11571083_8245339_800.jpg"
+          },
+          {
+            "size": "1000",
+            "url": "https://cdn-images.farfetch.com/aquazzura-red-wild-thing-heeled-sandals_11571083_8245339_1000.jpg"
+          }
+        ],
+        "videos": [],
+        "price": 575,
+        "formattedPrice": "575,00 €",
+        "gender": 0,
+        "formattedPriceWithoutDiscount": "575,00 €",
+        "priceType": 0,
+        "priceWithoutDiscount": 575,
+        "brand": {
+          "description": null,
+          "id": 580741,
+          "name": "Aquazzura",
+          "priceType": 0
+        },
+        "currencyIsoCode": "EUR",
+        "merchantId": 9359,
+        "isInWishlist": false,
+        "slug": "red-wild-thing-heeled-sandals-11571083",
+        "promotionPercentage": 0,
+        "tag": 0,
+        "tagDescription": "NoTag"
+      }
+    ],
+    "totalItems": 15,
+    "totalPages": 1
+  }
+}
