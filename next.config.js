@@ -17,6 +17,10 @@ function addPolyfill(config) {
 
 const conf = {
   cssModules: true,
+  cssLoaderOptions: {
+    importLoaders: 1,
+    localIdentName: "[local]___[hash:base64:5]",
+  },
   webpack(config) {
     addPolyfill(config);
     return commonsChunkConfig(config, /\.(sass|scss|css)$/);
