@@ -1,5 +1,5 @@
 const MENU_CLICK = 'MENU_CLICK';
-const CHANGE_SUBMENU_OPTIONS = 'CHANGE_SUBMENU_OPTIONS';
+const MENU_CHANGE_SUBMENU_OPTIONS = 'CHANGE_SUBMENU_OPTIONS';
 
 const INITIAL_STATE = {
   menuOptions: ['Homem', 'Mulher', 'Kids'],
@@ -22,9 +22,9 @@ function menuClick() {
   };
 }
 
-function changeSubmenuOptions(options) {
+function menuChangeSubmenuOptions(options) {
   return {
-    type: CHANGE_SUBMENU_OPTIONS,
+    type: MENU_CHANGE_SUBMENU_OPTIONS,
     options,
   };
 }
@@ -39,6 +39,6 @@ function reducer(state = INITIAL_STATE, action = { type: 'none' }) {
 
 export {
   menuClick,
-  changeSubmenuOptions,
+  menuChangeSubmenuOptions,
   reducer as menu,
 };

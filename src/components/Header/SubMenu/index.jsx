@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const MainMenu = ({ options }) => {
+const SubMenu = ({ options }) => {
   return (
     <ul>
       {options.map(item => (<li key={item}>{item}</li>))}
@@ -9,8 +9,8 @@ const MainMenu = ({ options }) => {
   );
 };
 
-MainMenu.propTypes = {
+SubMenu.propTypes = {
   options: PropTypes.arrayOf(PropTypes.string).isRequired,
 };
 
-export default MainMenu;
+export default SubMenu;

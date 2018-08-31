@@ -18,7 +18,7 @@ export default class MyDocument extends Document {
           <link rel="shortcut icon" type="image/x-icon" href="/static/assets/favicon.ico" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css" />
-          <title>Opportunities</title>
+          <title>Farfetch</title>
         </Head>
         <body>
           <Main />
