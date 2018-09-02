@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Logo from './assets/_logo_.svg';
+import Logo from './assets/Logo';
 import style from './style.scss';
 
 const Header = ({ children }) => {
