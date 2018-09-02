@@ -1,0 +1,9 @@
+@import '../sass/_mixins.scss';
+.body {
+  @include max-width;
+  &__description {
+    max-width: 65rem;
+    color: $color_main_title;
+    @include font;
+  }
+}

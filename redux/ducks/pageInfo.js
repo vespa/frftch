@@ -5,7 +5,7 @@ const INITIAL_STATE = {
   title: 'Novidades da moda masculina internacional',
   description: `O melhor da moda internacional
   e as peças mais recentes ds marcas internacionais
-  chegaram à seleção online da Farfetch. Descubra novidade
+  chegaram à seleção online da Farfetch. Descubra novidades
   da moda masculina e as tendências que grandes designers
   para renovar o guarda-roupas, de Salvatore Ferragamo à Burberry.`,
 };

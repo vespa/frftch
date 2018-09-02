@@ -1,0 +1,10 @@
+@import '_vars';
+
+@mixin max-width {
+  margin:0 auto;
+  max-width: 85.75rem;
+}
+
+@mixin font {
+  font-family: 'Oswald', sans-serif;
+}

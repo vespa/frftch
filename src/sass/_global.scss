@@ -1,0 +1,12 @@
+
+body {
+  background-color: $color_primary;
+  font-family: 'Arial', sans-serif;
+}
+h1 {
+  @include font;
+  text-transform: uppercase;
+  color: $color_main_title;
+  font-size: 2rem;
+  margin: 1rem 0;
+}

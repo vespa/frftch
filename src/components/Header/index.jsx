@@ -1,12 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Logo from './assets/logo.svg';
+import Logo from './assets/_logo_.svg';
+import style from './style.scss';
 
 const Header = ({ children }) => {
   return (
-    <header>
-      <div> <Logo /> </div>
-      <div> {children} </div>
+    <header className={style.header}>
+      <div className={style.header__container}>
+        <div> {children} </div>
+        <div className={style.header__logo}> <Logo /> </div>
+        <div />
+      </div>
     </header>
   );
 };
