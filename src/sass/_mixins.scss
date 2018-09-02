@@ -9,3 +9,15 @@
 @mixin font {
   font-family: 'Oswald', sans-serif;
 }
+
+@mixin mobile {
+  @media only screen and (max-width: $break-mobile) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media only screen and (max-width: $break-tablet) {
+    @content;
+  }
+}
