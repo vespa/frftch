@@ -1,0 +1,14 @@
+@import '../../../sass/_mixins.scss';
+
+.menu {
+  @include font;
+  display: flex;
+  a {
+    display: block;
+    color: #aaa;
+    line-height: 4rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 3rem;
+  }
+}

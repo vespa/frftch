@@ -1,11 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import style from './style.scss';
 
 const MainMenu = ({ options }) => {
   return (
-    <ul>
-      {options.map(item => (<li key={item}>{item}</li>))}
-    </ul>
+    <nav className={style.menu}>
+      {options.map(item => (<a href="/" key={item}>{item}</a>))}
+    </nav>
   );
 };
 

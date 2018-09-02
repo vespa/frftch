@@ -1,9 +1,22 @@
 @import '../sass/_mixins.scss';
 .body {
-  @include max-width;
   &__description {
     max-width: 65rem;
     color: $color_main_title;
     @include font;
+  }
+  &__divider{
+    border-top: 2px solid #E6E6E6;
+    opacity: .5;
+  }
+  &__header {
+    background-color: #ECEBEC;
+    padding: 1rem 0;
+    &__text {
+      @include max-width;
+    }
+  }
+  &__content{
+    @include max-width;
   }
 }
