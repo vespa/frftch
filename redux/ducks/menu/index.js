@@ -1,4 +1,4 @@
-const MENU_CLICK = 'MENU_CLICK';
+
 const MENU_CHANGE_SUBMENU_OPTIONS = 'CHANGE_SUBMENU_OPTIONS';
 
 const INITIAL_STATE = {
@@ -16,12 +16,6 @@ const INITIAL_STATE = {
   ],
 };
 
-function menuClick() {
-  return {
-    type: MENU_CLICK,
-  };
-}
-
 function menuChangeSubmenuOptions(options) {
   return {
     type: MENU_CHANGE_SUBMENU_OPTIONS,
@@ -32,13 +26,15 @@ function menuChangeSubmenuOptions(options) {
 function reducer(state = INITIAL_STATE, action = { type: 'none' }) {
   const { type } = action;
   switch (type) {
+    case MENU_CHANGE_SUBMENU_OPTIONS:
+      return { ...state, options: action.options };
     default:
       return state;
   }
 }
 
 export {
-  menuClick,
+  MENU_CHANGE_SUBMENU_OPTIONS,
   menuChangeSubmenuOptions,
   reducer as menu,
 };
