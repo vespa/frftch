@@ -76,6 +76,7 @@ export {
   productListRequest,
   productListLoaded,
   productListGet,
+  productListError,
   PRODUCTLIST_REQUEST,
   PRODUCTLIST_LOADED,
   PRODUCTLIST_ERROR,

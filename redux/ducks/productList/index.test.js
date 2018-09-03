@@ -7,6 +7,7 @@ import {
   productListLoaded,
   productListGet,
   productList,
+  productListError,
   PRODUCTLIST_REQUEST,
   PRODUCTLIST_LOADED,
   PRODUCTLIST_ERROR,
@@ -45,10 +46,22 @@ describe('[Redux: pageInfo]', () => {
   });
 
 
-  it('should update prouct list', () => {
+  it('should update product list', () => {
     const action = productListLoaded(products);
     expect(productList(INITIAL_STATE, action).loading).toEqual(false);
     expect(productList(INITIAL_STATE, action).productList).toEqual(products.products.entries);
+  });
+
+  it('should get a error message', () => {
+    const action = {
+      type: PRODUCTLIST_ERROR,
+      productList: [],
+      totalItems: 0,
+      totalPages: 0,
+      loading: false,
+      message: 'Alguma coisa deu errada. Por favor, tente novamente em alguns minutos',
+    };
+    expect(productListError()).toEqual(action);
   });
 
   it('should test async productListGet', () => {
