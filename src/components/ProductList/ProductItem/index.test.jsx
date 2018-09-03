@@ -1,13 +1,13 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import FooterMenu from './index';
+import ProducItem from './index';
 
 describe('[Component: ProductItem]', () => {
   let wrapper;
   let finalState;
   beforeEach(() => {
     wrapper = shallow(
-      <FooterMenu
+      <ProducItem
         shortDescription="test"
         brand={{ name: 'test' }}
         formattedPrice="R$ 1,00"
@@ -39,7 +39,7 @@ describe('[Component: ProductItem]', () => {
       realPrice: 'R$ 1,00',
     };
     wrapper = shallow(
-      <FooterMenu
+      <ProducItem
         shortDescription="test"
         brand={{ name: 'test' }}
         formattedPrice="R$ 1,00"
