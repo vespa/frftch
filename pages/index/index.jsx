@@ -19,9 +19,15 @@ class Index extends React.Component {
   }
 
   static propTypes = {
-    productList: PropTypes.arrayOf(Object).isRequired,
-    totalItems: PropTypes.number.isRequired,
-    totalPages: PropTypes.number.isRequired,
+    productList: PropTypes.arrayOf(Object),
+    totalItems: PropTypes.number,
+    totalPages: PropTypes.number,
+  }
+
+  static defaultProps = {
+    productList: [],
+    totalItems: 0,
+    totalPages: 0,
   }
 
   render() {
