@@ -7,12 +7,15 @@ class ProductItem extends React.Component {
     super(args);
     this.state = {
       currentImage: args.images[0].url,
+      currentPrice: '',
+      realPrice: '',
+      discountPrice: '',
+      discount: '',
     };
   }
 
-  changeImage() {
-    const images = this.props;
-    return images;
+  componentWillMount() {
+    this.checkDiscountPrice();
   }
 
   checkDiscountPrice() {
@@ -23,34 +26,41 @@ class ProductItem extends React.Component {
       formattedPrice,
     } = this.props;
     if (price === priceWithoutDiscount) {
-      return formattedPrice;
+      this.setState({
+        currentPrice: formattedPriceWithoutDiscount,
+      });
+    } else {
+      let percent = priceWithoutDiscount;
+      percent = priceWithoutDiscount - price;
+      percent /= priceWithoutDiscount;
+      percent *= 100;
+      this.setState({
+        realPrice: formattedPriceWithoutDiscount,
+        discountPrice: formattedPrice,
+        discount: `| ${percent.toFixed(0)}% off `,
+      });
     }
-    let percent = priceWithoutDiscount;
-    percent = priceWithoutDiscount - price;
-    percent /= priceWithoutDiscount;
-    percent *= 100;
-    return (
-      <React.Fragment>
-        <span className={style['item__content__price--full']}>
-          {`${formattedPriceWithoutDiscount}`}
-        </span> {`| ${percent.toFixed(0)}% off ` }
-        <span className={style['item__content__price--discount']}>
-          ${formattedPrice}
-        </span>
-      </React.Fragment>
-    );
   }
 
   render() {
     const {
       shortDescription,
       brand,
+      slug,
     } = this.props;
+    const {
+      realPrice,
+      discountPrice,
+      discount,
+      currentPrice,
+    } = this.state;
     const { name } = brand;
     const { currentImage } = this.state;
+
     return (
       <li className={style.item}>
-        <span className={style.item__content}>
+        {/* {this.checkDiscountPrice()} */}
+        <a href={slug} className={style.item__content}>
           <img src={currentImage} alt={shortDescription} />
           <span className={style.item__content__title}>
             {name}
@@ -60,8 +70,14 @@ class ProductItem extends React.Component {
               {shortDescription}
             </span>
           </span>
-          {this.checkDiscountPrice()}
-        </span>
+          {currentPrice}
+          <span className={style['item__content__price--full']}>
+            {realPrice}
+          </span> {discount}
+          <span className={style['item__content__price--discount']}>
+            {discountPrice}
+          </span>
+        </a>
       </li>
     );
   }
@@ -74,7 +90,7 @@ ProductItem.propTypes = {
   formattedPriceWithoutDiscount: PropTypes.string.isRequired,
   priceWithoutDiscount: PropTypes.number.isRequired,
   price: PropTypes.number.isRequired,
-  // images: PropTypes.arrayOf(PropTypes.object).isRequired,
+  slug: PropTypes.string.isRequired,
 };
 
 export default ProductItem;
