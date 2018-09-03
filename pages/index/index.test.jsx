@@ -1,15 +1,15 @@
 import React from 'react';
-// import configureStore from 'redux-mock-store';
+import configureStore from 'redux-mock-store';
 import fetchMock from 'fetch-mock';
 import { shallow } from 'enzyme';
 import Index from './index';
 
-// const initialState = {
-//   productList: [],
-//   totalItems: 0,
-//   totalPages: 0,
-// };
-// const mockStore = configureStore();
+const initialState = {
+  productList: [],
+  totalItems: 0,
+  totalPages: 0,
+};
+const mockStore = configureStore();
 
 let wrapper;
 let store;
@@ -20,7 +20,7 @@ let store;
 // };
 describe('[Component: Index]', () => {
   beforeEach(() => {
-    // store = mockStore(initialState);
+    store = mockStore(initialState);
     // const prop = await Index.getInitialProps();
     wrapper = shallow(
       <Index store={store} productList={[]} />,
