@@ -18,13 +18,13 @@ describe('[Redux: pageInfo]', () => {
     expect(pageInfo()).toEqual(INITIAL_STATE);
   });
 
-  it('should return correct initalstate', () => {
+  it('should change title', () => {
     const title = 'changed title';
     const action = pageChangeTitle(title);
     expect(pageInfo(INITIAL_STATE, action).title).toEqual(title);
   });
 
-  it('should return correct initalstate', () => {
+  it('should change description', () => {
     const description = 'changed description';
     const action = pageChangeDescription(description);
     expect(pageInfo(INITIAL_STATE, action).description).toEqual(description);

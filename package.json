@@ -6,7 +6,7 @@
     "build": "next build",
     "start": "node server/index.js",
     "test": "jest",
-    "lint": "eslint --ext .jsx,.js ./"
+    "lint": "eslint --ext .jsx,.js ./src ./pages ./redux"
   },
   "dependencies": {
     "@zeit/next-css": "^0.2.0",
@@ -15,6 +15,7 @@
     "babel-polyfill": "^6.26.0",
     "body-parser": "^1.18.3",
     "css-loader": "^1.0.0",
+    "fetch-mock": "^6.5.2",
     "isomorphic-fetch": "^2.2.1",
     "isomorphic-unfetch": "^2.1.1",
     "next": "^6.1.1",
@@ -51,6 +52,7 @@
     "jest": "22.0.1",
     "react-addons-test-utils": "15.6.2",
     "react-styleguidist": "^7.3.4",
-    "react-test-renderer": "16.2.0"
+    "react-test-renderer": "16.2.0",
+    "redux-mock-store": "^1.5.3"
   }
 }

@@ -9,7 +9,7 @@ import { productListGet } from '../../redux/ducks/productList';
 class Index extends React.Component {
   static async getInitialProps({ reduxStore }) {
     const { dispatch } = reduxStore;
-    const res = await productListGet(dispatch);
+    const res = await dispatch(productListGet());
     const { totalItems, totalPages } = res.products;
     return {
       totalItems,
@@ -50,8 +50,7 @@ const mapStateToProps = (state) => {
 };
 
 const mapDispatchToProps = dispatch => ({
-  changeSubMenu: () => { dispatch(); },
-  getProducts: () => productListGet(dispatch),
+  getProducts: () => dispatch(productListGet()),
 });
 
 export default connect(

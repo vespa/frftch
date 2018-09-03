@@ -1,6 +1,6 @@
 const PRODUCTLIST_REQUEST = 'PRODUCTLIST_REQUEST';
 const PRODUCTLIST_LOADED = 'PRODUCTLIST_LOADED';
-const PRODUCTLIST_ERROR = 'PRODUCTLIST_GET';
+const PRODUCTLIST_ERROR = 'PRODUCTLIST_ERROR';
 
 const INITIAL_STATE = {
   productList: [],
@@ -36,17 +36,19 @@ function productListError() {
   };
 }
 
-function productListGet(dispatch) {
-  dispatch(productListRequest());
-  return fetch('http://localhost:3000/api')
-    .then(res => res.json())
-    .then((value) => {
-      dispatch(productListLoaded(value));
-      return value;
-    })
-    .catch((err) => {
-      dispatch(productListError(err));
-    });
+function productListGet() {
+  return (dispatch) => {
+    dispatch(productListRequest());
+    return fetch('http://localhost:3000/api')
+      .then(res => res.json())
+      .then((value) => {
+        dispatch(productListLoaded(value));
+        return value;
+      })
+      .catch((err) => {
+        dispatch(productListError(err));
+      });
+  };
 }
 
 function reducer(state = INITIAL_STATE, action = { type: 'none' }) {
@@ -74,5 +76,8 @@ export {
   productListRequest,
   productListLoaded,
   productListGet,
+  PRODUCTLIST_REQUEST,
+  PRODUCTLIST_LOADED,
+  PRODUCTLIST_ERROR,
   reducer as productList,
 };
