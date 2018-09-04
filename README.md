@@ -3,7 +3,6 @@
 
 ## Dependencies
 * NodejS 8+;
-* Eslint installed as global.
 
 ### Run the client
 
