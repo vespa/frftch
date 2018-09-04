@@ -2,7 +2,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Logo from './assets/Logo';
 import style from './style.scss';
-
+/**
+ * The main Header. Contains the logo and normally the menu as a children
+ *
+ */
 const Header = ({ children }) => {
   return (
     <header className={style.header}>
@@ -16,6 +19,9 @@ const Header = ({ children }) => {
 };
 
 Header.propTypes = {
+  /**
+   * inject components at Header tag
+   */
   children: PropTypes.node.isRequired,
 };
 

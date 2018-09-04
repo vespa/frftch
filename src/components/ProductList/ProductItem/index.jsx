@@ -2,6 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import style from './style.scss';
 
+/**
+ * This component displays products and have two states: normal and discount
+ */
 class ProductItem extends React.Component {
   constructor(args) {
     super(args);
@@ -17,6 +20,11 @@ class ProductItem extends React.Component {
   componentWillMount() {
     this.checkDiscountPrice();
   }
+  /**
+   * Check if has discount and change the component state.
+   * Also calculates the percentage diference between real price and
+   * discount price
+   */
 
   checkDiscountPrice() {
     const {
@@ -59,7 +67,6 @@ class ProductItem extends React.Component {
 
     return (
       <li className={style.item}>
-        {/* {this.checkDiscountPrice()} */}
         <a href={slug} className={style.item__content}>
           <img src={currentImage} alt={shortDescription} />
           <span className={style.item__content__title}>
@@ -84,12 +91,22 @@ class ProductItem extends React.Component {
 }
 
 ProductItem.propTypes = {
+  /** A small description */
   shortDescription: PropTypes.string.isRequired,
-  brand: PropTypes.shape({}).isRequired,
+  /** Provides the name of the brand */
+  brand: PropTypes.shape({
+    name: PropTypes.string,
+  }).isRequired,
+  /** Price cames in the country's currency */
   formattedPrice: PropTypes.string.isRequired,
+  /** formattedPriceWithoutDiscount cames in the country's currency */
   formattedPriceWithoutDiscount: PropTypes.string.isRequired,
+  /** real product price */
   priceWithoutDiscount: PropTypes.number.isRequired,
+  /** product price. when smaller than priceWithoutDiscount,
+   * the component show the Discount State  */
   price: PropTypes.number.isRequired,
+  /** Url path of the product  */
   slug: PropTypes.string.isRequired,
 };
 

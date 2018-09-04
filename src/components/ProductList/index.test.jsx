@@ -1,6 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import ProductList from './index';
+import ProductItem from './ProductItem';
 
 const fakeList = [
   {
@@ -57,5 +58,8 @@ describe('[Component: ProductList]', () => {
   });
   it('should match snapshot', () => {
     expect(wrapper).toMatchSnapshot();
+  });
+  it('should find a ProductItem', () => {
+    expect(wrapper.find(ProductItem).length).toBe(1);
   });
 });

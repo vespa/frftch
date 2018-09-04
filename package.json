@@ -6,7 +6,8 @@
     "build": "next build",
     "start": "node server/index.js",
     "test": "jest",
-    "lint": "eslint --ext .jsx,.js ./src ./pages ./redux"
+    "lint": "eslint --ext .jsx,.js ./src ./pages ./redux",
+    "docs": "npx styleguidist server"
   },
   "dependencies": {
     "@zeit/next-css": "^0.2.0",
@@ -14,7 +15,6 @@
     "babel-loader": "^7.1.5",
     "babel-polyfill": "^6.26.0",
     "body-parser": "^1.18.3",
-    "css-loader": "^1.0.0",
     "fetch-mock": "^6.5.2",
     "isomorphic-fetch": "^2.2.1",
     "isomorphic-unfetch": "^2.1.1",
@@ -31,8 +31,7 @@
     "redux-devtools-extension": "^2.13.2",
     "redux-thunk": "^2.1.0",
     "restify": "^7.2.1",
-    "restify-router": "^0.5.0",
-    "style-loader": "^0.22.1"
+    "restify-router": "^0.5.0"
   },
   "license": "ISC",
   "devDependencies": {
@@ -41,6 +40,7 @@
     "babel-jest": "22.4.3",
     "babel-plugin-inline-react-svg": "^0.5.4",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "css-loader": "^1.0.0",
     "enzyme": "3.2.0",
     "enzyme-adapter-react-16": "1.1.1",
     "eslint": "^4.19.1",
@@ -53,6 +53,8 @@
     "react-addons-test-utils": "15.6.2",
     "react-styleguidist": "^7.3.4",
     "react-test-renderer": "16.2.0",
-    "redux-mock-store": "^1.5.3"
+    "redux-mock-store": "^1.5.3",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.22.1"
   }
 }

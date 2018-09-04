@@ -13,11 +13,6 @@ const mockStore = configureStore();
 
 let wrapper;
 let store;
-// const props = {
-//   reduxStore: {
-//     dispatch: jest.fn(),
-//   },
-// };
 describe('[Component: Index]', () => {
   beforeEach(() => {
     store = mockStore(initialState);
