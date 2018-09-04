@@ -7,7 +7,7 @@
 
 ### Run the client
 
-On the application's root: 
+On application's root: 
 
 ```js 
 npm start
@@ -17,7 +17,7 @@ Run tests and coverage:
 ```js 
 `npm test`
 ```
-Run ESLint (avoid do that on vscode or similar, prefer do that at a non-IDE terminal. Installed plugins can conflict)
+Run ESLint (avoid do that on vscode or similar, prefer a non-IDE terminal. Installed plugins can conflict)
 ```js 
 `npm run lint`
 ```
