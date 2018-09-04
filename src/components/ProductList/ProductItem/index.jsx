@@ -66,10 +66,19 @@ class ProductItem extends React.Component {
     const { currentImage } = this.state;
 
     return (
-      <li className={style.item}>
-        <a href={slug} className={style.item__content}>
-          <img src={currentImage} alt={shortDescription} />
-          <span className={style.item__content__title}>
+      <li className={style.item} itemScope itemType="http://schema.org/ItemList">
+        <link itemProp="url" href={slug} />
+        <a
+          href={slug}
+          className={style.item__content}
+          itemProp="itemListElement"
+          itemScope
+          itemType="http://schema.org/Product"
+        >
+          <span className={style.item__content__img}>
+            <img itemProp="image" src={currentImage} alt={shortDescription} />
+          </span>
+          <span itemProp="name" className={style.item__content__title}>
             {name}
           </span>
           <span className={style.item__content__description}>
@@ -78,7 +87,7 @@ class ProductItem extends React.Component {
             </span>
           </span>
           {currentPrice}
-          <span className={style['item__content__price--full']}>
+          <span itemProp="price" className={style['item__content__price--full']}>
             {realPrice}
           </span> {discount}
           <span className={style['item__content__price--discount']}>

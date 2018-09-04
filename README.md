@@ -10,7 +10,7 @@
 On the application's root: 
 
 ```js 
-npm run start
+npm start
 ```
 
 Run tests and coverage:

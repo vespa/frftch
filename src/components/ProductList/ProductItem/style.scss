@@ -11,6 +11,27 @@
     background-color: #fff;
     padding: 1rem;
     display: block;
+    &__img{
+      display: block;
+      overflow: hidden;
+      position: relative;
+      height:0;
+      width:100%;
+      padding-bottom:100%;
+      img {
+        top: 0;
+        left: 0;
+        width: 100%;
+        min-width: 15rem;
+        transition: all 200ms;
+        position: absolute;
+        &:hover{
+          width: 130%;
+          top: -15%;
+          left: -15%;
+        }
+      }
+    }
     &__title {
       @include font;
       display: block;
@@ -34,9 +55,5 @@
         color: #f00;
       }
     }
-  }
-  img {
-    width: 100%;
-    min-width: 15rem;
   }
 }
