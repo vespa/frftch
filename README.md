@@ -4,7 +4,7 @@
 ## Dependencies
 * NodejS 8+;
 
-### Run the client
+### Run App (up on http://localhost:3000/)
 
 On application's root: 
 
@@ -12,16 +12,16 @@ On application's root:
 npm start
 ```
 
-Run tests and coverage:
+### Run tests and coverage:
 ```js 
 `npm test`
 ```
-Run ESLint (avoid do that on vscode or similar, prefer a non-IDE terminal. Installed plugins can conflict)
+### Run ESLint
 ```js 
 `npm run lint`
 ```
 
-To see the Documentation (up on http://localhost:6060/)
+### Generate Docs (up on http://localhost:6060/)
 ```js 
 npm run docs
 ```
